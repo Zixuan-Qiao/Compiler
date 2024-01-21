@@ -1,0 +1,7 @@
+(ID,x1)
+(PL, )
+(INT,2)
+(MU, )
+(ID,abc)
+Quadruples: ( * , 2 , abc , R1 )
+Quadruples: ( + , x1 , R1 , R2 )
