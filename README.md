@@ -1,4 +1,4 @@
-# Syntax-Directed Compiler Implementation
+# Syntax-Directed Compiler
 In this project, the front-end of a compiler is implemented from scratch. 
 
 ## Introduction
