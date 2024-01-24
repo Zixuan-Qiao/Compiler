@@ -92,7 +92,6 @@ void controller(FILE *fp,FILE *ft,FILE *fw)
 		rf=0;
 		if(ACTION[TopStat][InpSym]==ERROR)
 		{
-			printf("Grammar Error!\n");
 			ef=1;
 			break;
 		}
@@ -111,7 +110,7 @@ void controller(FILE *fp,FILE *ft,FILE *fw)
 					readandputall(fp,ft);
 				}
 	}
-	if(ef==1) printf("Error\n");
+	if(ef==1) { printf("Compilation terminated. \n"); exit(1); }
 }
 
 void push()
