@@ -337,7 +337,7 @@ void Octa(FILE *fp,FILE *fw)
 
 void report_error()
 {
-	printf("Error at line %d\n",linec);
+	printf("Error at line %d! \n",linec);
 }
 
 int HandleOtherWord(void)
@@ -346,6 +346,6 @@ int HandleOtherWord(void)
 }
 int HandleError(void)
 {
-	printf("Error at line %d\n",linec);
+	printf("Error at line %d! \n",linec);
 	return 0;
 }
