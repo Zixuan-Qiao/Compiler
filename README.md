@@ -11,7 +11,11 @@ The translation process is driven by the syntax analysis controller. It will per
 C/C++
 
 ## Results
-<img width="390" alt="2" src="https://github.com/Zixuan-Qiao/Compiler/assets/102449059/b608cbb8-b6bd-4b82-a782-f94039ff4e20">
+<img width="324" alt="1" align="top" src="https://github.com/Zixuan-Qiao/Compiler/assets/102449059/1997efb8-d40b-43c9-bd42-5f79c0b05317">
+
+<img width="265" alt="2" align="top" src="https://github.com/Zixuan-Qiao/Compiler/assets/102449059/5b98f23d-9bae-476e-87b7-4e4fe8170b35">
+
+<img width="328" alt="3" align="top" src="https://github.com/Zixuan-Qiao/Compiler/assets/102449059/34aa362e-32a3-4d3b-85d1-d28033d2e903">
 
 ## Author
 Zixuan (Alex) Qiao
