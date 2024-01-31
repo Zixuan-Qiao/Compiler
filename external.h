@@ -16,7 +16,6 @@ extern int wf;
 extern int s;		//index of status stack
 extern int fa;
 extern int rf;
-extern int c;
 
 extern char valuesta[MAX][10];	// value stack
 extern int idxofv;			// index of value stack

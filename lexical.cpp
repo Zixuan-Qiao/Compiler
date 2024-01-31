@@ -13,8 +13,7 @@ char nextcha;
 int flag=5000; // Positive or Negative flag
 char *stri;
 int linec=1;
-int c = 0;
-int wf  = 1000;
+int wf = 1000;
 
 char *KeyWordTable[MAX_KEY_NUMBER]={ "if", "then", "else", "while", "begin", "end" , "int" , "for", "do" , KEY_WORD_END};
 

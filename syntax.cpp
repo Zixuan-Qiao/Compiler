@@ -44,7 +44,7 @@ int GOTO[16][3]={
 char TOKEN[MAX] = {'\0'};
 int stacks[MAX] = {0};	
 int as = 0;
-int stackx[MAX] = {7, 0};	
+int stackx[MAX] = {0};	
 int TopStat = 0, InpSym = 0;
 int leng = 0;			
 char arr[MAX] = {'\0'};
@@ -164,8 +164,8 @@ void change(int x,int y)
 	}
 	int ta;
 	ta=0;
-	stackx[x+c]=7;
-	for(ee=x+c;ee<=y;ee++){
+	stackx[x]=7;
+	for(ee=x;ee<=y;ee++){
 		switch(stackx[ee]){
 			case 0:sta[ta]='('; ta++; break;
 			case 1:sta[ta]=')'; ta++; break;

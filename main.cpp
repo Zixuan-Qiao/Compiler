@@ -10,14 +10,13 @@ void main()
 	char fir;
 	while ((fir = fgetc(p)) != EOF)	// call syntax analysis controller for each expression
 	{
-		counter=1;
 		memset(valuesta, NULL, sizeof(valuesta));
-		memset(stacks, NULL, sizeof(stacks));
-		memset(stackx, NULL, sizeof(stackx));
-		as=0;
+		memset(stacks, -1, sizeof(stacks));
+		memset(stackx, -1, sizeof(stackx));
+		counter=1; 
 		printf("Word/Step\tToken Stack\tRemainder\n"); 
 		fseek(p,-1,1);
-		controller(p,t,w);c++;
+		controller(p,t,w); 
 		printf("Success!\n");
 	}
 	fclose(p);
